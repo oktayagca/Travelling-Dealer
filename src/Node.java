@@ -18,7 +18,6 @@ public class Node {
         n.following = end;
     }
 
-    // TODO:: Implement to return the length of the SinglyLinkedList
     // For example:: --> 5 --> 6 --> 7 --> 3 --> .
     public void printNodes() {
         Node head = this;
@@ -32,7 +31,6 @@ public class Node {
         System.out.print(output);
     }
 
-    // TODO:: Implement to return the length of the SinglyLinkedList
     int length(Node h) {
         int count = 1;
         while (h.following != null) {
@@ -42,7 +40,6 @@ public class Node {
         return count;
     }
 
-    // TODO:: Implement to return the sum of the Nodes
     int sumOfNodes() {
         Node head = this;
         int sum = this.data;
